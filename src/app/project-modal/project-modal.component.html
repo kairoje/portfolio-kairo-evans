@@ -4,9 +4,9 @@
 </div>
 
 <div class="modal-body">
-    <carousel>
+    <carousel style="transition: none;">
         <div *ngFor="let picture of project.pictures">
-            <slide><img src="{{picture}}" alt="slide" style="display: block; width: 100%; transition: none;"></slide>
+            <slide><img src="{{picture}}" alt="slide" style="display: block; width: 100%;"></slide>
         </div>
     </carousel>
 
